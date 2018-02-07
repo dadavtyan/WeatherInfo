@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tempMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:background="#0000FF"
+        android:text="Text" />
+
+    <TextView
+        android:id="@+id/pressureMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:background="#0000FF"
+        android:text="Text" />
+
+    <TextView
+        android:id="@+id/humidityMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:background="#0000FF"
+        android:text="Text" />
+</LinearLayout>
